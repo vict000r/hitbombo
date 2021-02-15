@@ -52,10 +52,27 @@ footer {
   margin-top: -5%;
 }
 
+.mid {
+  display: flex;  
+  height: 60vh;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rightmain {
+ max-width: 50%;
+ position: relative;
+}
+
+.leftmain, .rightmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .mid h1 {
   position: relative;
-  margin-top: 200px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -65,9 +82,9 @@ footer {
   color: #ffffff;
 }
 
+
 .mid h2 {
   position: relative;
-  margin-top: -30px;
 
   font-family: Roboto;
   font-style: normal;
@@ -80,25 +97,21 @@ footer {
   color: #4b4465;
 }
 
+
+
 .mid img {
   position: relative;
   display: flex;
-  margin-top: -50%;
-  margin-right: 50%;
-  width: 500px;
-  height: 350px;
-
-  background: url(image.png);
-  box-shadow: 15px -15px 100px 5px rgba(255, 255, 255, 0.07);
+  width: 100%;
+  height: auto;
+  
 }
 
-.mid button {
+.leftmain button {
   position: relative;
   margin-top: 0px;
   width: 208px;
   height: 61px;
- 
-
   background: #00f582;
   border-radius: 30px;
 }
@@ -107,7 +120,7 @@ footer h1 {
   position: relative;
   width: 592px;
   height: 104px;
-  left: 27%;
+  left: 47%;
   top: 300px;
 
   font-family: Yu Gothic UI;
@@ -125,7 +138,7 @@ footer h2 {
   width: 468px;
   height: 52px;
   left: 48px;
-  top: 660px;
+  top: 620px;
 
   font-family: Roboto;
   font-style: normal;
@@ -144,3 +157,33 @@ footer button {
   left: -140%;
   top: -250px;
 }
+
+.btn-pad {
+  height: 0;
+  border-radius: 50%;
+  position: absolute;
+  background-color: red;
+  border: none;
+  box-shadow: 0 0 20px black;
+}
+
+.pad-xl {
+  width: 20%;
+  padding-top: 20%;
+}
+
+.pad-sm {
+  width: 16%;
+  padding-bottom: 15%;
+}
+
+.pad1 {
+  left: 1%;
+  top:1%;
+}
+
+.pad2 {
+  left: 8%;
+  top: 28%;
+}
+

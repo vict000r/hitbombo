@@ -1,0 +1,13 @@
+body {
+    position: relative;
+    background-color: #0b032c;
+  }
+
+header,
+main,
+footer {
+  width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}

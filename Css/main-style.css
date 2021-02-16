@@ -1,0 +1,97 @@
+
+main {
+    display: flex;  
+    height: 60vh;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .rightmain {
+   max-width: 50%;
+   position: relative;
+  }
+  
+  .leftmain, .rightmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+main h1 {
+    position: relative;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+  
+    color: #ffffff;
+  }
+  
+  
+main h2 {
+    position: relative;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 67%;
+  
+    letter-spacing: -0.07em;
+  
+    color: #4b4465;
+  }
+  
+  
+  
+main img {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .leftmain button {
+    position: relative;
+    margin-top: 0px;
+    width: 208px;
+    height: 61px;
+    background: #00f582;
+    border-radius: 30px;
+  }
+
+
+  /* BOTONES A PARTIR DE AQUÍ */
+
+  .btn-pad {
+    height: 0;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    border: none;
+    box-shadow: 0 0 20px black;
+  }
+  
+  .pad-xl {
+    width: 20%;
+    padding-top: 20%;
+  }
+  
+  .pad-sm {
+    width: 17%;
+    padding-bottom: 16%;
+  }
+  
+  .pad1 {
+    left: 1%;
+    top:1%;
+  }
+  
+  .pad2 {
+    left: 8%;
+    top: 28%;
+  }
+  

@@ -187,3 +187,8 @@ footer button {
   top: 28%;
 }
 
+@media (max-width: 320px){
+  header{ 
+    flex-direction: colum;
+  } 
+}

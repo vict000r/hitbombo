@@ -14,11 +14,12 @@ header {
     color: white;
     display: flex;
     justify-content: space-between;
-    margin-inline: 20px;
     margin-right: 20px;
     text-align: right;
     text-decoration: none;
   }
+
+
   header nav ul {
     display: flex;
     list-style: none;

@@ -1,3 +1,9 @@
+@import "./BodyParts/header-style.css" ;
+
+@import "./BodyParts/main-style.css";
+
+@import "./BodyParts/footer-style.css";
+
 body {
     position: relative;
     background-color: #0b032c;
@@ -11,4 +17,3 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
-

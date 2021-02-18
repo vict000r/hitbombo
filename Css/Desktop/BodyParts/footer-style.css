@@ -14,6 +14,7 @@ footer h1 {
     line-height: 48px;
     letter-spacing: -0.01em;
     color: #eae9ed;
+    margin: 0;
   }
   
   footer h2 {
@@ -30,4 +31,13 @@ footer h1 {
     position: relative;
     width: 178px;
     height: 56px;
+    border-radius: 25px;
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 80%;
+
+    text-align: center;
+    letter-spacing: -0.04em;
   }

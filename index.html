@@ -40,14 +40,14 @@
 
       <div class="rightmain">
         <img src="Images/drumkit.png">
-        <button data-key="65" class="btn-pad pad-xl pad1">drum1</button>
-        <button data-key="83" class="btn-pad pad-xl pad2">drum2</button>
-        <button data-key="68" class="btn-pad pad-xl pad3" onclick="play()">drum3</button>
-        <button data-key="70" class="btn-pad pad-xl pad4" onclick="play()">drum4</button>
-        <button data-key="71" class="btn-pad pad-xl pad5" onclick="play()">drum5</button>
-        <button data-key="72" class="btn-pad pad-sm pad6" onclick="play()">drum6</button>
-        <button data-key="74" class="btn-pad pad-sm pad7" onclick="play()">drum7</button>
-        <button data-key="75" class="btn-pad pad-sm pad8" onclick="play()">drum8</button>
+        <button class="btn-pad pad-xl pad1" onclick="play1()">drum1</button>
+        <button class="btn-pad pad-xl pad2" onclick="play2()">drum2</button>
+        <button class="btn-pad pad-xl pad3" onclick="play3()">drum3</button>
+        <button class="btn-pad pad-xl pad4" onclick="play4()">drum4</button>
+        <button class="btn-pad pad-xl pad5" onclick="play5()">drum5</button>
+        <button class="btn-pad pad-sm pad6" onclick="play6()">drum6</button>
+        <button class="btn-pad pad-sm pad7" onclick="play7()">drum7</button>
+        <button class="btn-pad pad-sm pad8" onclick="play8()">drum8</button>
       </div>
     </main>
 
@@ -57,14 +57,14 @@
       <button>SEE PRINCING</button>
     </footer>
 
-    <audio data-key="65" src="./audio/boom.ogg" type="audio/ogg"></audio>
-    <audio data-key="83" src="./audio/clap.ogg" type="audio/ogg"></audio>
-    <audio data-key="68" src="./audio/hihat.ogg" type="audio/ogg"></audio>
-    <audio data-key="70" src="./audio/kick.ogg" type="audio/ogg"></audio>
-    <audio data-key="71" src="./audio/openhat.ogg" type="audio/ogg"></audio>
-    <audio data-key="72" src="./audio/ride.ogg" type="audio/ogg"></audio>
-    <audio data-key="74" src="./audio/snare.ogg" type="audio/ogg"></audio>
-    <audio data-key="75" src="./audio/tink.ogg" type="audio/ogg"></audio>
+    <audio id="boom" src="./audio/boom.ogg" type="audio/ogg"></audio>
+    <audio id="clap" src="./audio/clap.ogg" type="audio/ogg"></audio>
+    <audio id="hihat" src="./audio/hihat.ogg" type="audio/ogg"></audio>
+    <audio id="kick" src="./audio/kick.ogg" type="audio/ogg"></audio>
+    <audio id="openhat" src="./audio/openhat.ogg" type="audio/ogg"></audio>
+    <audio id="ride" src="./audio/ride.ogg" type="audio/ogg"></audio>
+    <audio id="snare" src="./audio/snare.ogg" type="audio/ogg"></audio>
+    <audio id="tink" src="./audio/tink.ogg" type="audio/ogg"></audio>
   
     <script src="drum-player.js"></script>
   </body>

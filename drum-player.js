@@ -1,41 +1,42 @@
+// SIMPLIFICAR FUNCIÓN
 
-
-function play1() {
-    var x = document.getElementById("boom");
-    x.play();
+function play() {
+    let soundelement = document.getElementById("boom");
+    soundelement.play();
+    // función reiniciar audio
 }
 
 function play2() {
-    var x = document.getElementById("clap");
-    x.play();
+    let soundelement = document.getElementById("clap");
+    soundelement.play();
 }
 
 function play3() {
-    var x = document.getElementById("hihat");
-    x.play();
+    let soundelement = document.getElementById("hihat");
+    soundelement.play();
 }
 
 function play4() {
-    var x = document.getElementById("boom");
-    x.play();
+    let soundelement = document.getElementById("kick");
+    soundelement.play();
 }
 
 function play5() {
-    var x = document.getElementById("boom");
-    x.play();
+    let soundelement = document.getElementById("openhat");
+    soundelement.play();
 }
 
 function play6() {
-    var x = document.getElementById("boom");
-    x.play();
+    let soundelement = document.getElementById("ride");
+    soundelement.play();
 }
 
 function play7() {
-    var x = document.getElementById("boom");
-    x.play();
+    let soundelement = document.getElementById("snare");
+    soundelement.play();
 }
 
 function play8() {
-    var x = document.getElementById("boom");
-    x.play();
+    let soundelement = document.getElementById("tink");
+    soundelement.play();
 }

@@ -1,8 +1,10 @@
-@import "./BodyParts/header-style.css" ;
+@import url(./body-parts/header-style.css);
 
-@import "./BodyParts/main-style.css";
+@import url(./body-parts/main-style.css);
 
-@import "./BodyParts/footer-style.css";
+@import url(./body-parts/footer-style.css);
+
+/*@import url(../mobile/mobile-style.css) screen (max-width: 400px);*/
 
 body {
     position: relative;

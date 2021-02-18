@@ -76,7 +76,7 @@ main img {
     height: 0;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: transparent;
     border: none;
     box-shadow: 0 0 20px black;
   }
@@ -97,7 +97,36 @@ main img {
   }
   
   .pad2 {
+    left: 28%;
+    top: 16%;
+  }
+
+  .pad3 {
+    left: 64%;
+    top: 53%;
+  }
+
+  .pad4 {
+    left: 16%;
+    top: 53%;
+  }
+
+  .pad5 {
+    left: 52%;
+    top: 16%;
+  }
+
+  .pad6 {
     left: 8%;
     top: 28%;
   }
+
+  .pad7 {
+    left: 80%;
+    top: 5%;
+  }
   
+  .pad8 {
+    left: 73%;
+    top: 28%;
+  }

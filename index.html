@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <title>Hit The Bombo</title>
     <link rel="stylesheet" href="./css/desktop/general-style.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -38,12 +37,17 @@
       <h2>Millions of songs. No credit card needed</h2>
       <button>Hit the</button>
       </div>
+
       <div class="rightmain">
         <img src="Images/drumkit.png">
-       
-        <button class="btn-pad pad-xl  pad1"></button>
-        <button class="btn-pad pad-sm pad2"></button>
-    
+        <button data-key="65" class="btn-pad pad-xl pad1">drum1</button>
+        <button data-key="83" class="btn-pad pad-xl pad2">drum2</button>
+        <button data-key="68" class="btn-pad pad-xl pad3" onclick="play()">drum3</button>
+        <button data-key="70" class="btn-pad pad-xl pad4" onclick="play()">drum4</button>
+        <button data-key="71" class="btn-pad pad-xl pad5" onclick="play()">drum5</button>
+        <button data-key="72" class="btn-pad pad-sm pad6" onclick="play()">drum6</button>
+        <button data-key="74" class="btn-pad pad-sm pad7" onclick="play()">drum7</button>
+        <button data-key="75" class="btn-pad pad-sm pad8" onclick="play()">drum8</button>
       </div>
     </main>
 
@@ -53,5 +57,15 @@
       <button>SEE PRINCING</button>
     </footer>
 
+    <audio data-key="65" src="./audio/boom.ogg" type="audio/ogg"></audio>
+    <audio data-key="83" src="./audio/clap.ogg" type="audio/ogg"></audio>
+    <audio data-key="68" src="./audio/hihat.ogg" type="audio/ogg"></audio>
+    <audio data-key="70" src="./audio/kick.ogg" type="audio/ogg"></audio>
+    <audio data-key="71" src="./audio/openhat.ogg" type="audio/ogg"></audio>
+    <audio data-key="72" src="./audio/ride.ogg" type="audio/ogg"></audio>
+    <audio data-key="74" src="./audio/snare.ogg" type="audio/ogg"></audio>
+    <audio data-key="75" src="./audio/tink.ogg" type="audio/ogg"></audio>
+  
+    <script src="drum-player.js"></script>
   </body>
 </html>

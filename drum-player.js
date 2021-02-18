@@ -1,5 +1,38 @@
 // SIMPLIFICAR FUNCIÓN
 
+
+
+
+
+
+function play1() {
+    var audio = document.getElementById('');
+    if (audio.paused) {
+        audio.play();
+    }
+    else{
+        audio.pause();
+        audio.currentTime = 0
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 function play() {
     let soundelement = document.getElementById("boom");
     soundelement.play();
@@ -40,3 +73,4 @@ function play8() {
     let soundelement = document.getElementById("tink");
     soundelement.play();
 }
+*/
